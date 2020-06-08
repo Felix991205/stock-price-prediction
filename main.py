@@ -1,12 +1,10 @@
 import json
+import torch
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
-
-import torch
-import torch.nn as nn
 
 from util import AverageMeter, build_timeseries, trim_dataset
 from model import LSTM_Model
